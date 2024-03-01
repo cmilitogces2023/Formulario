@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #DBC356;
+  }
+  
+  #registrationForm {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  #registrationsList {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+  }
+  
+  #registrationsList li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+  }
